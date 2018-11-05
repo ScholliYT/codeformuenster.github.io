@@ -1,0 +1,11 @@
+benötigte JSON Felder:
+"updated_at":"2017-12-05T21:30:47Z",
+"description":"Eine \"Stadtviertel-App\", zeigt Infos aus Deiner Umgebung an, aus Open Data Datens\u00e4tzen der Stadt M\u00fcnster.",
+"name":"familien-dashboard",
+"html_url":"https:\/\/github.com\/codeformuenster\/familien-dashboard",
+"total_tasks":18,
+"closed_tasks":16,
+"status":null,
+"title":"familien dashboard",
+"image":"screenshots\/poll-finder.jpg",
+"url":"http:\/\/poll-finder.codeformuenster.org\/",

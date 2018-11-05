@@ -66,14 +66,11 @@ class UpdateData {
     $updatedDaysAgo = (time() - filemtime($file)) / (24*60*60) ;
     # log_info("$file is " . ($updatedDaysAgo) . " days old. (vs. $updateTime)" );
 
-    if ((!$isThere) ||
-      ($isThere && ($updatedDaysAgo > $updateTime ))
-    ) {
+    if ((!$isThere) || ($isThere && ($updatedDaysAgo > $updateTime ))) {
       log_info("File not there or too old: Re-downloading " . $file);
       $repoString = $this->getData($url);
       file_put_contents($file, $repoString);
     } else {
-
       # check if a broken file was downloaded, and redownload
       $issueData = file_get_contents($file);
 		  $issues = json_decode( $issueData, true );
@@ -83,9 +80,7 @@ class UpdateData {
         $repoString = $this->getData($url);
         file_put_contents($file, $repoString);
       }
-
     }
-
   }
 
   /**
@@ -105,7 +100,6 @@ class UpdateData {
 
     $githubOrg = $config['organisation_name'];
     $hideRepos  = [
-
       'WhatsMyDistrict' => 1
     ];
 
