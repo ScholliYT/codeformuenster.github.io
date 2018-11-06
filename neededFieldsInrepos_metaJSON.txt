@@ -3,7 +3,6 @@ benötigte JSON Felder:
 "description":"Eine \"Stadtviertel-App\", zeigt Infos aus Deiner Umgebung an, aus Open Data Datens\u00e4tzen der Stadt M\u00fcnster.",
 "name":"familien-dashboard",
 "html_url":"https:\/\/github.com\/codeformuenster\/familien-dashboard",
-
 "total_tasks":18,
 "closed_tasks":16,
 "status":null,

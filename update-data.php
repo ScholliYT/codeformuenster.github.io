@@ -100,7 +100,6 @@ class UpdateData {
 
     $githubOrg = $config['organisation_name'];
     $hideRepos  = [
-
       'WhatsMyDistrict' => 1
     ];
 
