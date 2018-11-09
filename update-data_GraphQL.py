@@ -63,32 +63,6 @@ def getRepos(cursor, repoarray):
   return cursor
 
 
-
-"""
-{
-  repositoryOwner(login: "ScholliYT") {
-    repositories(last: 100) {
-      totalCount
-      edges {
-        node {
-          createdAt
-          updatedAt
-          url
-          name
-          description
-          closedIssueCount: issues(states: CLOSED) {
-            totalCount
-          }
-          totalIssueCount: issues {
-            totalCount
-          }
-        }
-      }
-    }
-  }
-}
-"""
-
 print("Fetching all repositories from " + githubOrganization)
 
 repodata = []
@@ -98,7 +72,8 @@ while lastCursor != "":
 
 print("Finished fetching data from GitHub.")
 
+print("Writing data to json file...")
 with open('json/pythonTest.json', 'w') as outfile:
     json.dump(repodata, outfile, indent=4)
-
+print("Finished writing data to json file.")
 
