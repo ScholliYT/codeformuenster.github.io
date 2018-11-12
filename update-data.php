@@ -238,7 +238,21 @@ class UpdateData
                 log_error("- no image in readme, no url to take a screenshot from = no screenshot.");
             }
 
-            $allRepos[$repoName] = ['updated_at' => $repo['updated_at'], 'created_at' => $repo['created_at'], 'description' => $repo['description'], 'name' => $repoName, 'title' => $title, 'total_tasks' => $total, 'closed_tasks' => $closed, 'users' => $users, 'image' => $image, 'html_url' => $repo['html_url'], 'url' => $url, 'forum' => $metaData['forum'], 'status' => $metaData['status'], 'meta' => $metaData];
+            $allRepos[$repoName] = [
+              'updated_at' => $repo['updated_at'],
+              'created_at' => $repo['created_at'], 
+              'description' => $repo['description'], 
+              'name' => $repoName, 'title' => $title, 
+              'total_tasks' => $repo['total_tasks'], 
+              'closed_tasks' => $repo['closed_tasks'], 
+              'users' => $users, 
+              'image' => $image, 
+              'html_url' => $repo['html_url'], 
+              'url' => $url, 
+              'forum' => $metaData['forum'], 
+              'status' => $metaData['status'], 
+              'meta' => $metaData
+            ];
 
             // print_r($allRepos[$repoName]);
 
