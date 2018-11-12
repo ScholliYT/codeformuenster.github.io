@@ -12,11 +12,11 @@ function userCmp($a, $b)
 
 function repoSort($a, $b)
 {
-    if ($a['image'] && !$b[image]) {
+    if ($a['image'] && !$b['image']) {
         return -1;
     }
 
-    if ((!$a['image']) && $b[image]) {
+    if ((!$a['image']) && $b['image']) {
         return 1;
     }
 
@@ -209,7 +209,7 @@ class UpdateData
             }
 
             $title = preg_replace("/[^a-z0-9]+/i", " ", $repoName);
-            $url = $repo['homepage'] ? $repo['homepage'] : ($metaData['uri'] ? $metaData['uri'] : $metaData['url']);
+            $url = $repo['url'] ? $repo['url'] : ($metaData['uri'] ? $metaData['uri'] : $metaData['url']);
             if ($url && (substr(strtolower($url) , 0, 4) != "http")) {
                 $url = 'http://' . $url;
             }
