@@ -103,18 +103,6 @@ class UpdateData {
       'WhatsMyDistrict' => 1
     ];
 
-
-		# update all the basic json files
-    $this->downloadUrlToFile(
-      "https://api.github.com/orgs/$githubOrg/members?per_page=100" . $apiCred,
-	     "json/members.json",
-       $update
-    );
-    $this->downloadUrlToFile(
-      "https://api.github.com/orgs/$githubOrg/repos?per_page=100&sort=pushed&direction=desc" . $apiCred,
-	     "json/repos.json",
-       $update
-    );
 		$repoString = file_get_contents( "json/repos.json" );
 		$repos = json_decode( $repoString, true );
 
