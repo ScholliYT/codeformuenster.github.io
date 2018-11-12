@@ -256,7 +256,7 @@ class UpdateData {
 
 		file_put_contents(
 		  "json/repos_meta.json",
-		  json_encode( $allRepos )
+		  json_encode( $allRepos, JSON_PRETTY_PRINT)
 		);
 
     log_info("writing meta-file: " . "json/repos_meta.json");
