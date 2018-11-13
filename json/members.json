@@ -1,104 +1,104 @@
 [
     {
-        "login": "webwurst", 
-        "html_url": "https://github.com/webwurst", 
-        "name": "Tobias Bradtke", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/225698?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/225698?v=4",
+        "login": "webwurst",
+        "html_url": "https://github.com/webwurst",
+        "name": "Tobias Bradtke"
+    },
     {
-        "login": "milafrerichs", 
-        "html_url": "https://github.com/milafrerichs", 
-        "name": "Mila Frerichs", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/688980?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/688980?v=4",
+        "login": "milafrerichs",
+        "html_url": "https://github.com/milafrerichs",
+        "name": "Mila Frerichs"
+    },
     {
-        "login": "chk1", 
-        "html_url": "https://github.com/chk1", 
-        "name": "Christoph Kisfeld", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/828496?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/828496?v=4",
+        "login": "chk1",
+        "html_url": "https://github.com/chk1",
+        "name": "Christoph Kisfeld"
+    },
     {
-        "login": "tfechner", 
-        "html_url": "https://github.com/tfechner", 
-        "name": "Thore Fechner", 
-        "avatarUrl": "https://avatars0.githubusercontent.com/u/1140542?v=4"
-    }, 
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/1140542?v=4",
+        "login": "tfechner",
+        "html_url": "https://github.com/tfechner",
+        "name": "Thore Fechner"
+    },
     {
-        "login": "ubergesundheit", 
-        "html_url": "https://github.com/ubergesundheit", 
-        "name": "Gerald Pape", 
-        "avatarUrl": "https://avatars0.githubusercontent.com/u/1494211?v=4"
-    }, 
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/1494211?v=4",
+        "login": "ubergesundheit",
+        "html_url": "https://github.com/ubergesundheit",
+        "name": "Gerald Pape"
+    },
     {
-        "login": "jahnique", 
-        "html_url": "https://github.com/jahnique", 
-        "name": "Yannic", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/1703916?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/1703916?v=4",
+        "login": "jahnique",
+        "html_url": "https://github.com/jahnique",
+        "name": "Yannic"
+    },
     {
-        "login": "kostja93", 
-        "html_url": "https://github.com/kostja93", 
-        "name": "Konstantin Gontscharow", 
-        "avatarUrl": "https://avatars2.githubusercontent.com/u/2908717?v=4"
-    }, 
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/2908717?v=4",
+        "login": "kostja93",
+        "html_url": "https://github.com/kostja93",
+        "name": "Konstantin Gontscharow"
+    },
     {
-        "login": "geeeero", 
-        "html_url": "https://github.com/geeeero", 
-        "name": "Gero Walter", 
-        "avatarUrl": "https://avatars0.githubusercontent.com/u/3239206?v=4"
-    }, 
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/3239206?v=4",
+        "login": "geeeero",
+        "html_url": "https://github.com/geeeero",
+        "name": "Gero Walter"
+    },
     {
-        "login": "thunfischtoast", 
-        "html_url": "https://github.com/thunfischtoast", 
-        "name": "Christian", 
-        "avatarUrl": "https://avatars0.githubusercontent.com/u/4479108?v=4"
-    }, 
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/4479108?v=4",
+        "login": "thunfischtoast",
+        "html_url": "https://github.com/thunfischtoast",
+        "name": "Christian"
+    },
     {
-        "login": "silberzwiebel", 
-        "html_url": "https://github.com/silberzwiebel", 
-        "name": "kartoffelsalat", 
-        "avatarUrl": "https://avatars1.githubusercontent.com/u/4533862?v=4"
-    }, 
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/4533862?v=4",
+        "login": "silberzwiebel",
+        "html_url": "https://github.com/silberzwiebel",
+        "name": "kartoffelsalat"
+    },
     {
-        "login": "Backenkoehler", 
-        "html_url": "https://github.com/Backenkoehler", 
-        "name": "Stephan", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/5747704?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/5747704?v=4",
+        "login": "Backenkoehler",
+        "html_url": "https://github.com/Backenkoehler",
+        "name": "Stephan"
+    },
     {
-        "login": "tomsrocket", 
-        "html_url": "https://github.com/tomsrocket", 
-        "name": "Thomas Werner", 
-        "avatarUrl": "https://avatars2.githubusercontent.com/u/6351193?v=4"
-    }, 
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/6351193?v=4",
+        "login": "tomsrocket",
+        "html_url": "https://github.com/tomsrocket",
+        "name": "Thomas Werner"
+    },
     {
-        "login": "ThorbenJensen", 
-        "html_url": "https://github.com/ThorbenJensen", 
-        "name": "Thorben Jensen", 
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/6625253?v=4"
-    }, 
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/6625253?v=4",
+        "login": "ThorbenJensen",
+        "html_url": "https://github.com/ThorbenJensen",
+        "name": "Thorben Jensen"
+    },
     {
-        "login": "nsteffens", 
-        "html_url": "https://github.com/nsteffens", 
-        "name": "Nico Steffens", 
-        "avatarUrl": "https://avatars2.githubusercontent.com/u/12084517?v=4"
-    }, 
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/12084517?v=4",
+        "login": "nsteffens",
+        "html_url": "https://github.com/nsteffens",
+        "name": "Nico Steffens"
+    },
     {
-        "login": "felixerdy", 
-        "html_url": "https://github.com/felixerdy", 
-        "name": "Felix Erdmann", 
-        "avatarUrl": "https://avatars1.githubusercontent.com/u/12086004?v=4"
-    }, 
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/12086004?v=4",
+        "login": "felixerdy",
+        "html_url": "https://github.com/felixerdy",
+        "name": "Felix Erdmann"
+    },
     {
-        "login": "ScholliYT", 
-        "html_url": "https://github.com/ScholliYT", 
-        "name": "Scholli", 
-        "avatarUrl": "https://avatars2.githubusercontent.com/u/12571895?v=4"
-    }, 
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/12571895?v=4",
+        "login": "ScholliYT",
+        "html_url": "https://github.com/ScholliYT",
+        "name": "Tom Stein"
+    },
     {
-        "login": "xcony", 
-        "html_url": "https://github.com/xcony", 
-        "name": "XCONY Information Systems GmbH", 
-        "avatarUrl": "https://avatars0.githubusercontent.com/u/20482851?v=4"
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/20482851?v=4",
+        "login": "xcony",
+        "html_url": "https://github.com/xcony",
+        "name": "XCONY Information Systems GmbH"
     }
 ]

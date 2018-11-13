@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 githubToken = ""
 githubOrganization = "codeformuenster"
 hideRepos = { "WhatsMyDistrict" }
@@ -59,8 +60,8 @@ def getRepos(cursor, repoarray):
         "name": repo["name"],
         "total_tasks": repo["totalIssueCount"]["totalCount"],
         "closed_tasks": repo["closedIssueCount"]["totalCount"],
-        "html_url": repo["url"],
-        "url": repo["homepageUrl"]
+        "html_url": repo["homepageUrl"],
+        "url": repo["url"]
         })
   return cursor
 
@@ -98,6 +99,10 @@ def getUsers(userarray):
         "html_url": user["url"],
         "name": user["name"]
         })
+
+if(githubToken == "") :
+  print("No Token!")
+  sys.exit()
 
 # Repos
 print("Fetching all repositories from " + githubOrganization)
