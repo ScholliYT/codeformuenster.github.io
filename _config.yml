@@ -37,5 +37,5 @@ defaults:
       layout: "post"
       category: "blog"
 
-gems:
+plugins:
   - jekyll-feed
