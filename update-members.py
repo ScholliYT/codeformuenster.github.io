@@ -1,7 +1,7 @@
 import requests
 import json
 import sys
-import os 
+import os
 
 
 #githubToken = os.environ['GITHUBTOKEN']
@@ -13,7 +13,7 @@ def getUsers(cursor, userarray):
   query = """
   {
     organization(login: \"""" + githubOrganization + """\") {
-      members(first: 100\"""" + ((", after:"  + cursor + ") {") if cursor != "" else ") {") + """\"
+      members(first: 100""" + ((", after: \""  + cursor + "\") {") if cursor != "" else ") {") + """
         totalCount
         edges {
           cursor
@@ -23,7 +23,7 @@ def getUsers(cursor, userarray):
             url
             name
           }
-        }  
+        }
       }
     }
   }
@@ -34,7 +34,7 @@ def getUsers(cursor, userarray):
   data = r.json()
   users = data["data"]["organization"]["members"]["edges"]
 
-  
+
   for user in users:
       user = user["node"]
       print( "Reading user ==============================> " + user["name"]);
@@ -46,7 +46,7 @@ def getUsers(cursor, userarray):
         })
   cursor = ""
   if len(users) == 100:
-    cursor = users[-1].cursor
+    cursor = users[-1]["cursor"]
   return cursor
 
 
