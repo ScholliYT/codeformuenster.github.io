@@ -1,9 +1,10 @@
 Install these things on Linux with GUI:
 - chrome + ChromeDriver
 
-pip install requests, Pillow, timeout-decorator, selenium 
+pip3 install requests Pillow timeout-decorator selenium 
 
 
 Run scripts:
+    - python3 update-members.py
     - python3 update-data_GraphQL.py 
     - python3 update-screenshots.py 
