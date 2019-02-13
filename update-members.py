@@ -34,7 +34,7 @@ def getUsers(cursor, userarray):
   data = r.json()
   users = data["data"]["organization"]["members"]["edges"]
 
-  cursor = ""
+  
   for user in users:
       cursor = repo["cursor"]
       user = user["node"]
@@ -45,6 +45,9 @@ def getUsers(cursor, userarray):
         "html_url": user["url"],
         "name": user["name"]
         })
+  cursor = ""
+  if len(users) == 100:
+    cursor = users[-1].cursor
   return cursor
 
 
