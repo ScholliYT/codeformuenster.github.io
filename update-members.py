@@ -13,7 +13,7 @@ def getUsers(cursor, userarray):
   query = """
   {
     organization(login: \"""" + githubOrganization + """\") {
-      members(first: 100, after: \"""" + cursor + """\") {
+      members(first: 100\"""" + ((", after:"  + cursor + ") {") if cursor != "" else ") {") + """\"
         totalCount
         edges {
           cursor
@@ -36,7 +36,6 @@ def getUsers(cursor, userarray):
 
   
   for user in users:
-      cursor = repo["cursor"]
       user = user["node"]
       print( "Reading user ==============================> " + user["name"]);
       userarray.append({
