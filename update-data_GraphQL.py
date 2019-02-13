@@ -94,7 +94,7 @@ def getUsers(userarray):
       user = user["node"]
       print( "Reading user ==============================> " + user["name"]);
       userarray.append({
-        "avatarUrl": user["avatarUrl"],
+        "avatar_url": user["avatarUrl"],
         "login": user["login"],
         "html_url": user["url"],
         "name": user["name"]
